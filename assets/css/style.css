@@ -298,3 +298,33 @@ a:hover { color: var(--blue); }
 .recruitment-korean p {
   margin: 0 0 10px;
 }
+
+.hero-recruiting {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.98rem;
+  color: rgba(255,255,255,.82);
+}
+
+.hero-recruiting strong {
+  color: #fff;
+}
+
+.hero-recruiting a {
+  color: #fff;
+}
+
+.hero-recruiting-link {
+  padding: 8px 14px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.hero-recruiting-link:hover {
+  background: rgba(255,255,255,.10);
+  color: #fff;
+}
