@@ -270,3 +270,9 @@ a:hover { color: var(--blue); }
   border-radius: 18px;
   display: block;
 }
+.korean-intro {
+  font-size: 0.98rem;
+  color: #687587;
+  margin-top: -18px;
+  line-height: 1.8;
+}
