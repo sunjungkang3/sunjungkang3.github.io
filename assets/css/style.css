@@ -328,3 +328,28 @@ a:hover { color: var(--blue); }
   background: rgba(255,255,255,.10);
   color: #fff;
 }
+
+.profile-history {
+  margin: 28px 0;
+  padding-left: 1.3rem;
+  color: var(--text);
+}
+
+.profile-history li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.profile-history span {
+  color: var(--muted);
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.advisor {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 0 !important;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
