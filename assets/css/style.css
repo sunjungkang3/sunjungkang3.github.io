@@ -83,17 +83,19 @@ a:hover { color: var(--blue); }
   opacity: .78;
 }
 .hero h1 {
-  max-width: 900px;
+  max-width: none;
   margin: 14px 0 18px;
-  font-size: clamp(2.6rem, 6vw, 5.2rem);
+  font-size: clamp(2.8rem, 4.6vw, 4.4rem);
   line-height: 1.03;
   letter-spacing: -.035em;
+  white-space: nowrap;
 }
 .hero .tagline {
-  max-width: 780px;
+  max-width: none;
   margin: 0;
-  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-size: clamp(1.05rem, 1.55vw, 1.3rem);
   color: rgba(255,255,255,.84);
+  white-space: nowrap;
 }
 .hero-underline {
   width: 92px;
@@ -260,6 +262,11 @@ a:hover { color: var(--blue); }
   .person { grid-template-columns: 1fr; }
   .news-list li { grid-template-columns: 1fr; gap: 4px; }
   .hero { min-height: 440px; }
+
+  .hero h1,
+  .hero .tagline {
+    white-space: normal;
+  }
 }
 
 .profile-photo {
