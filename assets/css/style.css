@@ -276,3 +276,17 @@ a:hover { color: var(--blue); }
   margin-top: -18px;
   line-height: 1.8;
 }
+.recruitment-text p {
+  margin: 0 0 18px;
+}
+
+.recruitment-korean {
+  margin-top: 8px;
+  color: #687587;
+  font-size: 0.98rem;
+  line-height: 1.8;
+}
+
+.recruitment-korean p {
+  margin: 0 0 10px;
+}
