@@ -203,8 +203,8 @@ a:hover { color: var(--blue); }
 }
 .person {
   display: grid;
-  grid-template-columns: 170px 1fr;
-  gap: 30px;
+  grid-template-columns: 190px 1fr;
+  gap: 36px;
   align-items: start;
 }
 .avatar {
@@ -263,9 +263,10 @@ a:hover { color: var(--blue); }
 }
 
 .profile-photo {
-  width: 170px;
-  aspect-ratio: 1;
+  width: 190px;
+  height: 240px;
   object-fit: cover;
-  border-radius: 22px;
+  object-position: center top;
+  border-radius: 18px;
   display: block;
 }
