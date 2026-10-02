@@ -261,3 +261,11 @@ a:hover { color: var(--blue); }
   .news-list li { grid-template-columns: 1fr; gap: 4px; }
   .hero { min-height: 440px; }
 }
+
+.profile-photo {
+  width: 170px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 22px;
+  display: block;
+}
