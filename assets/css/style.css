@@ -359,6 +359,15 @@ a:hover { color: var(--blue); }
   text-decoration: none;
 }
 
+.recruitment-text {
+  margin-bottom: 8px;
+}
+
+.recruitment-text + .section-title {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
 .advisor a:hover {
   text-decoration: underline;
 }
